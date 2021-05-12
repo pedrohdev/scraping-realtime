@@ -1,0 +1,19 @@
+{
+  "name": "scraping-realtime",
+  "version": "1.0.0",
+  "description": "Web Scraping em tempo real com Node.js :zap:",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "“pedrohdev” <pedrohenriquedos.s.v@gmail.com>",
+  "license": "“MIT”",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cheerio": "^1.0.0-rc.9",
+    "express": "^4.17.1",
+    "socket.io": "^4.1.1"
+  }
+}
